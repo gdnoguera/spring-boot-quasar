@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="59e83279-89b3-4262-ac00-992fff01ddfd" activeEnvironment="Default" name="operationFuegoQuasarReq1" soapui-version="5.6.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="05c34000-9c82-4273-aa9d-612d2b367df6" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://fuego-quasar-demo.herokuapp.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://fuego-quasar-demo.herokuapp.com</con:endpoint></con:endpoints><con:resource name="Topsecret" path="/topsecret" id="0c1cb23d-3253-4513-ba8f-1068b2c613d8"><con:settings/><con:parameters/><con:method name="Topsecret 1" id="ebbfd4ba-74d5-4960-ab73-a41156a8e314" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:top="https://fuego-quasar-demo.herokuapp.com/topsecret">top:Response</con:element></con:representation><con:request name="Request 1" id="ec12270f-c27f-4be6-9167-730d9cc14c62" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://fuego-quasar-demo.herokuapp.com</con:endpoint><con:request>{
+   "satellites":[
+      {
+         "name":"kenobi",
+         "distance":100.0,
+         "message":[
+            "este",
+            "",
+            "",
+            "mensaje",
+            ""
+         ]
+      },
+      {
+         "name":"skywalker",
+         "distance":115.5,
+         "message":[
+            "",
+            "es",
+            "",
+            "",
+            "secreto"
+         ]
+      },
+      {
+         "name":"sato",
+         "distance":142.7,
+         "message":[
+            "este",
+            "",
+            "un",
+            "",
+            ""
+         ]
+      }
+   ]
+}</con:request><con:originalUri>https://fuego-quasar-demo.herokuapp.com/topsecret</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
