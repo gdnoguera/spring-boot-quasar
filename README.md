@@ -1,4 +1,4 @@
-![logo](https://raw.github.com/1N0T/images/master/global/1N0T.png)
+![logo](https://github.com/gdnoguera/spring-boot-quasar/blob/main/src/main/resources/logo.png)
 
 # Operacion Fuego Quasar
 Han  Solo  ha  sido  recientemente  nombrado  General  de  la  Alianza 
